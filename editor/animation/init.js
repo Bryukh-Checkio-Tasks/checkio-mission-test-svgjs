@@ -80,23 +80,23 @@ requirejs(['ext_editor_1', 'jquery_190', 'svg.latest'],
                 var explanation = data.ext["explanation"];
 
 
-                var draw = SVG($content.find(".explanation")[0]);
-
-                // create image
-                var image = draw.image('images/shade.jpg');
-                image.size(600, 600).y(-150);
-
-                // create text
-                var text = draw.text('SVG.JS').move(300, 0);
-                text.font({
-                  family: 'Source Sans Pro'
-                , size: 180
-                , anchor: 'middle'
-                , leading: 1
-                });
-
-                // clip image with text
-                image.clipWith(text);
+//                var draw = SVG($content.find(".explanation")[0]);
+//
+//                // create image
+//                var image = draw.image('images/shade.jpg');
+//                image.size(600, 600).y(-150);
+//
+//                // create text
+//                var text = draw.text('SVG.JS').move(300, 0);
+//                text.font({
+//                  family: 'Source Sans Pro'
+//                , size: 180
+//                , anchor: 'middle'
+//                , leading: 1
+//                });
+//
+//                // clip image with text
+//                image.clipWith(text);
 
 
 
